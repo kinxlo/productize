@@ -115,7 +115,7 @@ export function SignupForm() {
                     </InputRightElement>
                 </InputGroup>
                 <Text className={`tiny-text`} color={`red.200`}>
-                    {errors?.password?.message.toString().includes(`required`) ? errors?.password?.message : ``}
+                    {errors?.password?.message?.toString().includes(`required`) ? errors?.password?.message : ``}
                 </Text>
                 <Flex hidden={!getValues('password')} mt={1} color={`grey.400`} alignItems={`flex-start`} gap={2}>
                     <Stack spacing={2} direction="column" py={2}>
