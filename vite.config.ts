@@ -21,7 +21,7 @@ export default defineConfig({
     plugins: [react(), nxViteTsPaths()],
 
     build: {
-        outDir: './dist/productize',
+        outDir: './dist',
         reportCompressedSize: true,
         commonjsOptions: {
             transformMixedEsModules: true,

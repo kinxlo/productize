@@ -1,16 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @nx/enforce-module-boundaries */
-import { FormControl, Input, SimpleGrid } from "@chakra-ui/react";
-import { Field } from "./components/FormFields";
-import { useFormContext } from "react-hook-form";
-import RadioCards from "./components/RadioCards";
+import { FormControl, Input, SimpleGrid } from '@chakra-ui/react';
+import { Field } from './components/FormFields';
+import { useFormContext } from 'react-hook-form';
+import RadioCards from './components/RadioCards';
 
-import { DataUploadField } from "./components/DataUploadField";
-import { CoverPhotoUploadField } from "./components/CoverPhotoUploadField";
-import RichTextField from "./components/RichTextField";
-import { ThumbnailUploadField } from "./components/ThumbnailUploadField";
-import { HighLightField } from "./components/HighlightField";
-import TagsField from "./components/TagsField";
+import { DataUploadField } from './components/DataUploadField';
+import { CoverPhotoUploadField } from './components/CoverPhotoUploadField';
+import RichTextField from './components/RichTextField';
+import { ThumbnailUploadField } from './components/ThumbnailUploadField';
+import { HighLightField } from './components/HighlightField';
+import TagsField from './components/TagsField';
 
 const globalFieldStyle = {
     bgColor: `grey.200`,
