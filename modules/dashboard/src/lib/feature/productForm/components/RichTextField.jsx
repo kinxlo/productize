@@ -1,7 +1,8 @@
-import { Controller, useFormContext } from "react-hook-form";
-import ReactQuill from "react-quill";
-import { quillModulesSchema } from "../../formValidationSchema/form-schemas";
-import { Box, FormLabel, Text } from "@chakra-ui/react";
+import { Controller, useFormContext } from 'react-hook-form';
+import { quillModulesSchema } from '../../formValidationSchema/form-schemas';
+import { Box, FormLabel, Text } from '@chakra-ui/react';
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css';
 
 const RichTextField = () => {
     const {
